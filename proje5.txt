@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int i,j;
+    printf("Sirasiyla (0 olmayan) x1 ve y1 girerek bir kordinat belirtiniz:");
+    scanf("%d %d",&i,&j);
+    if(i>0 && j>0)
+        printf("Girilen kordinat \"Kadran I\"de bulunur.");
+    else if(i<0 && j>0)
+        printf("Girilen kordinat \"Kadran II\"de bulunur.");
+    else if(i<0 && j<0)
+        printf("Girilen kordinat \"Kadran III\"de bulunur.");
+    else
+        printf("Girilen kordinat \"Kadran IV\"de bulunur.");
+}
