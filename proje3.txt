@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d,e;
+    printf("5 farkli sayi giriniz:");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    printf("Bu sayilarin toplami:%d",a+b+c+d+e);
+    return 0;
+}
