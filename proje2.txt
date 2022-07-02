@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Üç farkli sayi giriniz:");
+    scanf("%d %d %d", &a, &b, &c);
+    if(a>b)
+        if(a>c)
+            printf("1. sayi, %d", a);
+        else
+            printf("3. sayi, %d", c);
+    else
+        if(b>c)
+            printf("2. sayi, %d", b);
+        else
+            printf("3. sayi, %d", c);
+}
