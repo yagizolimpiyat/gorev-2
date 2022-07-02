@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int x1,y1,x2,y2, yt1, yt2;
+    float yt3;
+    printf("Sirasiyla x1,y1,x2 ve y2 degerleri giriniz:");
+    scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+    yt1=(x1-x2)*(x1-x2); yt2=(y1-y2)*(y1-y2);
+    yt3=sqrt(yt1+yt2);
+    printf("Iki kordinat arasindaki fark: %f",yt3);
+}
