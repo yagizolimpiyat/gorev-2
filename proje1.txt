@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int i,y=365,h=7,g=1,a=1,b=1,x,t,z;
+   printf("Gün, hafta ve yila ayrilmasi için gün bakimindan bir sayi giriniz:");
+   scanf("%d", &i);
+   x=i/y;
+   a=i%y;
+   t=a/h;
+   b=a%h;
+   z=b/g;
+   printf("Yil:%d \nHafta:%d \nGün:%d",x,t,z);
+}
